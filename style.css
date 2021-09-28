@@ -1,0 +1,107 @@
+
+body{
+    background-color: rgb(196, 148, 184);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-image: url('images/pattern.png');
+}
+header,section,footer,
+aside,nav,main,article,figure{
+    display:block;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(48, 4, 49);
+}
+#mainheader{
+    background-color: rgb(168, 112, 221);
+}
+nav{
+    height:60px;
+    width:100%;
+    margin:0 auto 20px;
+}
+#left-menu{
+    float:left;
+    width:30%;
+    margin-bottom: 20px;
+    position: -webkit-sticky;
+}
+#left-menu img{
+    height: 100px;
+    width: min-content;
+}
+.searchbox{
+    padding: 5px;
+    margin:100px 10px;
+    width:200px;
+	float:left;
+	clear:left;
+}
+section img{
+    width:150px;
+    height:130px;
+}
+footer{
+    clear:both;
+    width:100%;
+}
+#mainheader img{
+    height:40px;
+}
+figure img{
+    width:400px;
+    margin-left:auto;
+    margin-right: auto;
+    display: block;
+}
+#content{
+    text-align: center;
+}
+
+table img{
+    width:150px;
+}
+table,td,thead,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+#pies ul,li{
+    text-decoration: none;
+    text-align: left;
+	display:block;
+	float:left;
+	clear:left;
+}
+
+nav ul,li{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin:0 5px;
+    padding:0;
+}
+nav a{
+    text-decoration: none;
+    font-family: sans-serif;
+    padding:16px;
+    font-weight: bold;
+    text-align: center;
+    color: azure;
+	}
+	
+a{
+    text-decoration: none;
+    font-family: sans-serif;
+}
+a:hover{
+    color:rgb(189, 230, 115);
+}
+a:active{
+    color:rgb(23, 228, 23);
+}
