@@ -76,12 +76,14 @@ table,td,thead,th{
     border-collapse: collapse;
     padding: 5px;
 }
-#pies>ul>li{
+#pies ul li{
     text-decoration: none;
     text-align: left;
 	display:block;
 	float:left;
 	clear:left;
+    font-weight: bold;
+    color: cornsilk;
 }
 
 nav >ul>li{
@@ -113,4 +115,28 @@ a:active{
 .main{
     float: right;
     clear: right;
+}
+fieldset{
+    border-color: #a593c2;
+    border-width: 3px;
+    border-style: solid;
+    text-align: left;
+}
+fieldset>legend{
+    color:black;
+}
+p>label{
+display:block;
+}
+input{
+    border-radius:10px ;
+}
+
+footer{
+    
+    left:0;
+    display: inline-block;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }

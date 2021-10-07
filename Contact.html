@@ -58,15 +58,15 @@
                 <legend>Contact Information</legend>
                 <p>
             <label>Your name:</label> 
-            <input type="text" name="customerName"><br>
+            <input required type="text" name="customerName"><br>
                 </p>
             <p>
         <label>Your email:</label> 
-        <input type="email" name="customerEmail"><br>
+        <input required type="email" name="customerEmail"><br>
            </p>
 
         <p>
-        <label>Your phone:</label> <input type="tel" name="customerPhone"><br>
+        <label>Your phone:</label> <input required type="tel" name="customerPhone"><br>
 
         <label>Phone Type:</label>
    <input type="radio" name="Phonetype"> Cell
@@ -86,7 +86,7 @@
 
     <fieldset>
         <legend>Feedback</legend>
-    <textarea name="feedbackText"></textarea><br>
+    <textarea required name="feedbackText"></textarea><br>
     <label>Feedback type:</label> <select name="feedbackType">
 <option value="webstore">Web Store</option>
 <option value="general">General Feedback</option>
