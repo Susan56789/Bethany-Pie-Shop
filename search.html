@@ -4,9 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+<link rel="icon" type="image/png" href="favicon.png">
+<title>Welcome to Bethany's Pie Shop !</title>
 </head>
 <body>
-    <H2>Search Page</H2>
+    <h1>Search Page</h1>
+    <header id="mainheader">
+        <nav>
+        <img src="images/pie.png" alt="Pie"/>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pieoverview.html">All Pies</a></li>
+            <li><a href="Contact.html">Contact us</a></li>
+        </ul>
+        </nav>
+        </header>
+        
+        <div>
+            <aside id="left-menu">
+                <img src="images/bethanylogo.png" alt="Bethany's logo" />
+        <header>
+            <h4>Browse our pies</h4>
+        </header>
+        <div id="pies">
+        <ul>
+            <li>
+                <a href="pieoverview.html">All Pies</a>
+            </li>
+            <li>
+                <a href="cheesecakes.html">Cheese cakes</a>
+            </li>
+            <li>
+                <a href="seasonalpies.html">Seasonal pies</a>
+            </li>
+            <li>
+                <a href="fruitpies.html">Fruit pies</a>
+            </li>
+        </ul>
+        </div>
+        
+        <form action="search.html" method="GET" enctype="application/x-www-form-urlencoded">
+            <p>
+                <input type="search" class="searchbox" placeholder="Search our store" />
+                <input type="submit" class="submit-btn">
+            </p>
+            
+        </form>
+        </aside>
 </body>
 </html>
