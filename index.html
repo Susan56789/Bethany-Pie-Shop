@@ -4,13 +4,13 @@
 <meta charset="utf-8"/>
 <title>Welcome to Bethany's Pie Shop !</title>
 <meta name="author" content="Susan Wairimu">
-<meta name="viewport" content="width-device-width,initial-scale=1">    
+<meta name="viewport" content="initial-scale=1">    
 <link rel="stylesheet" type="text/css" href="style.css">
 <link rel="icon" type="image/png" href="favicon.png">
 
 </head>
 
-     <body oncontextmenu="return false">
+     <body>
 <header id="mainheader">
 <nav>
 <img src="images/pie.png" alt="Pie"/>
@@ -43,8 +43,15 @@
     </li>
 </ul>
 </div>
-<input type="search" class="searchbox" placeholder="Search our store" />
-    </aside>
+
+<form action="search.html" method="GET" enctype="application/x-www-form-urlencoded">
+    <p>
+        <input type="search" class="searchbox" placeholder="Search our store" />
+        <input type="submit" class="submit-btn">
+    </p>
+    
+</form>
+</aside>
 
     <main id="main">
 <article>
@@ -73,6 +80,29 @@
 </section>
     </main>
 
+    <main id="contact us">
+        <h2>Contact us</h2>
+        <form action="#contact us" method="POST" enctype="application/x-www-form-urlencoded">
+      <p>Your name: <input type="text" name="customerName"><br>
+        Your email: <input type="email" name="customerEmail"><br>
+        Your phone: <input type="tel" name="customerPhone"><br>
+    Ok to contact me: 
+  Phone:<input type="checkbox" name="okToContact" value="phone">
+    Email:<input type="checkbox" name="okToContact" value="email"><br>
+        <input type="hidden" name="source" value="ContactForm">
+    Your feedback: <textarea name="feedbackText"></textarea><br>
+    Feedback type: <select name="feedbackType">
+<option value="webstore">Web Store</option>
+<option value="general">General Feedback</option>
+<option value="physicalstore">Physical Store</option>
+<option value="websiteissue">Website issue</option>
+    </select><br>
+    Issue Date: <input type="date" name="issueDate"><br>
+    Issue Time: <input type="time" name="issueTime"><br>
+    <input type="submit" value="send">
+    </p> 
+        </form>
+    </main>
     <footer>
         <p>
             Our address is <address>Bethany's Pie Shop -Bakery Street Belgium</address>
