@@ -1,0 +1,23 @@
+{
+  "name": "pie-shop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Susan56789/Bethany-Pie-Shop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Susan56789/Bethany-Pie-Shop/issues"
+  },
+  "homepage": "https://github.com/Susan56789/Bethany-Pie-Shop#readme",
+  "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "react-image-gallery": "^1.2.7"
+  }
+}
