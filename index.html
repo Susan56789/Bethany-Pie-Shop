@@ -62,6 +62,7 @@
         <img src="images/bethany.jpg" alt="Bethany in her pie shop" />
    <figcaption>Bethany in her pie shop</figcaption>
     </figure>
+    <fieldset>
     <h2>My history</h2>
     <p id="content">
     For many years, <b>Bethany</b> has been baking the most delicious pies at her home. In 2013, we opened our first store in <i>Brussels (Belgium)</i> in a cosy little street near the Grand Market. People from all over the world fell in love with the soft cakes, heavenly cheese cakes, spicy apple pies... The store became a success in no time.
@@ -69,6 +70,7 @@
     You are now looking at the result of this: our very own webstore, making it possible to order Bethany's delicious pies whenever you feel like it!
        <br> Bethany is famous for using only the best ingredients. This way, we can make sure that our pies are absolutely the best.
     </p>
+</fieldset>
     <p>Download our full <a href="downloads/Price list.zip">price list</a></a></p>
 </article>
 <section id="promos">
@@ -82,15 +84,27 @@
 
     <main id="contact us">
         <h2>Contact us</h2>
+        
         <form action="#contact us" method="POST" enctype="application/x-www-form-urlencoded">
-      <p>Your name: <input type="text" name="customerName"><br>
+            <fieldset>
+                <legend>Contact Information</legend>
+            <p>Your name: <input type="text" name="customerName"><br>
         Your email: <input type="email" name="customerEmail"><br>
         Your phone: <input type="tel" name="customerPhone"><br>
-    Ok to contact me: 
+        Phone Type:
+   <input type="radio" name="Phonetype"> Cell
+   <input type="radio" name="Phonetype"> Work
+   <input type="radio" name="Phonetype"> Home <br>
+        Ok to contact me:  
   Phone:<input type="checkbox" name="okToContact" value="phone">
     Email:<input type="checkbox" name="okToContact" value="email"><br>
-        <input type="hidden" name="source" value="ContactForm">
-    Your feedback: <textarea name="feedbackText"></textarea><br>
+</fieldset>   <br> 
+    
+    <input type="hidden" name="source" value="ContactForm">
+
+    <fieldset>
+        <legend>Feedback</legend>
+    <textarea name="feedbackText"></textarea><br>
     Feedback type: <select name="feedbackType">
 <option value="webstore">Web Store</option>
 <option value="general">General Feedback</option>
@@ -99,6 +113,8 @@
     </select><br>
     Issue Date: <input type="date" name="issueDate"><br>
     Issue Time: <input type="time" name="issueTime"><br>
+</fieldset>
+
     <input type="submit" value="send">
     </p> 
         </form>
