@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Bethany's Pie Shop !</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+<link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+    <header id="mainheader">
+        <nav>
+        <img src="images/pie.png" alt="Pie"/>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pieoverview.html">All Pies</a></li>
+            <li><a href="Contact.html">Contact us</a></li>
+        </ul>
+        </nav>
+        </header>
+        <div>
+            <aside id="left-menu">
+                <img src="images/bethanylogo.png" alt="Bethany's logo" />
+        <header>
+            <h4>Browse our pies</h4>
+        </header>
+        <div id="pies">
+        <ul>
+            <li>
+                <a href="pieoverview.html">All Pies</a>
+            </li>
+            <li>
+                <a href="cheesecakes.html">Cheese cakes</a>
+            </li>
+            <li>
+                <a href="seasonalpies.html">Seasonal pies</a>
+            </li>
+            <li>
+                <a href="fruitpies.html">Fruit pies</a>
+            </li>
+        </ul>
+        </div>
+        
+        <form action="search.html" method="GET" enctype="application/x-www-form-urlencoded">
+            <p>
+                <input type="search" class="searchbox" placeholder="Search our store" />
+                <input type="submit" class="submit-btn">
+            </p>
+            
+        </form>
+        </aside>
+    <main id="main">
+        <h2>Contact us</h2>
+        
+        <form action="Contact.html" method="POST" enctype="application/x-www-form-urlencoded">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <p>
+            <label>Your name:</label> 
+            <input type="text" name="customerName"><br>
+                </p>
+            <p>
+        <label>Your email:</label> 
+        <input type="email" name="customerEmail"><br>
+           </p>
+
+        <p>
+        <label>Your phone:</label> <input type="tel" name="customerPhone"><br>
+
+        <label>Phone Type:</label>
+   <input type="radio" name="Phonetype"> Cell
+   <input type="radio" name="Phonetype"> Work
+   <input type="radio" name="Phonetype"> Home <br>
+</p>
+   <p>
+        Ok to contact me:  
+ <label> Phone:</label>
+ <input type="checkbox" name="okToContact" value="phone">
+    <label>Email:</label>
+    <input type="checkbox" name="okToContact" value="email"><br>
+    </p>
+</fieldset>   <br> 
+    
+    <input type="hidden" name="source" value="ContactForm">
+
+    <fieldset>
+        <legend>Feedback</legend>
+    <textarea name="feedbackText"></textarea><br>
+    <label>Feedback type:</label> <select name="feedbackType">
+<option value="webstore">Web Store</option>
+<option value="general">General Feedback</option>
+<option value="physicalstore">Physical Store</option>
+<option value="websiteissue">Website issue</option>
+    </select><br>
+    <label>Seriousness: </label>
+    <input type="range" min="1" max="10"><br>
+    <label>Issue Date:</label> <input type="date" name="issueDate"><br>
+    <label>Issue Time:</label> <input type="time" name="issueTime"><br>
+</fieldset>
+
+    <input type="submit" value="send">
+     
+        </form>
+    </main>
+    <div id="footer">
+        <footer>
+            <p>
+                Our address is <address>Bethany's Pie Shop -Bakery Street Belgium</address>
+            </p>
+            <p>Contact us via <a href="mailto:susanwairimu364@gmail.com">email</a></p>
+            <small>&copy; 2021 Bethany's Pie Shop - All rights reserved.</small>
+        </footer>
+    </div>
+</body>
+</html>

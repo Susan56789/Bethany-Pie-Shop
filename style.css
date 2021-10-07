@@ -21,7 +21,7 @@ h1{
     background-color: rgb(168, 112, 221);
 }
 nav{
-    height:60px;
+    height:100px;
     width:100%;
     margin:0 auto 20px;
 }
@@ -38,7 +38,7 @@ nav{
 .searchbox{
     padding: 5px;
     margin:100px 10px;
-    width:200px;
+    width:150px;
 	float:left;
 	clear:left;
 }
@@ -76,7 +76,7 @@ table,td,thead,th{
     border-collapse: collapse;
     padding: 5px;
 }
-#pies ul,li{
+#pies>ul>li{
     text-decoration: none;
     text-align: left;
 	display:block;
@@ -84,7 +84,7 @@ table,td,thead,th{
 	clear:left;
 }
 
-nav ul,li{
+nav >ul>li{
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
