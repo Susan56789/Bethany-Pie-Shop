@@ -133,7 +133,8 @@ input{
 }
 
 footer{
-    
+    background-color: rgb(168, 112, 221);
+    color: color;
     left:0;
     display: inline-block;
     bottom: 0;
